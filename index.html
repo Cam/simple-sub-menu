@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<!----------------------
+   ____                
+  / ___|__ _ _ __ ____ 
+ | |   / _` | '_ ` _  \
+ | |__| (_| | | | | | |
+  \____\__,_|_| |_| |_|
+
+   http://camgould.com
+
+----------------------->
+
+<head>
+
+	<link rel="stylesheet" href="style.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+	<h2>Simple Sub Menus</h2>
+	<p>Simple full width sub-menu divs with animation, using just jQuery, HTML & CSS. Great for offering rich content and multi-columns menu options in a sub-menu.</p>
+	<p>As seen on <a href="http://camgould.com/blog/posts/simple-big-sub-menu-with-animation">camgould.com</a><p>
+
+	<a href="#" class="btn">Click here</a>
+	
+	<div class="box">
+	    <p>This is where I put my 'submenu' content.</p>
+	    <a href="#" class="btn-close">x</a>
+	</div>
+	
+	
+	<script type="text/javascript">
+		$(".btn").click(function () {
+		    $('.box').addClass('show');
+		});
+		$(".btn-close").click(function () {
+		    $('.box').removeClass('show');
+		});
+	</script>
+
+</body>
