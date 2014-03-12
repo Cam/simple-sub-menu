@@ -9,6 +9,7 @@
     width: 100%;
     background: #555;
     height: 0;
+    overflow: hidden;
     -moz-opacity: 0;
     opacity: 0;
      -webkit-transition: all 200ms linear;
